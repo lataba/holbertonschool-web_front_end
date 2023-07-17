@@ -509,7 +509,7 @@ a:active {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 calc(3 * var(--root-element-size)) 0;
+    --nav-item-margin: 0 0 3rem;
     --nav-item-link-hover: var(--color-primary);
 }
 
