@@ -419,12 +419,12 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav .nav-link {
+nav .nav-link {
     display: block;
     padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
+nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
   
@@ -474,6 +474,10 @@ a:active {
     margin-right: auto;
     margin-left: auto;
 }
+
+.footer {
+    padding: var(--footer-padding);
+}
   
 :root {
     --color-primary: #d73953;
@@ -512,7 +516,3 @@ a:active {
     --nav-item-margin: 0 0 3rem;
     --nav-item-link-hover: var(--color-primary);
 }
-
-.footer {
-    padding: var(--footer-padding);
-  }
