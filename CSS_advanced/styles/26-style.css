@@ -79,16 +79,16 @@ a:active {
 .card-testimonial {
     text-align: center;
 }
-  
+
 .card-testimonial .card-avatar {
     border-radius: 50%;
-    width: calc(10 * var(--root-element-size));
-    height: calc(10 * var(--root-element-size));
+    width: 10rem;
+    height: 10rem;
 }
-  
-.card-testimonial card-quote cite {
+
+.card-testimonial .card-quote cite {
     display: block;
-    padding-top: calc(1 * var(--root-element-size));
+    padding-top: 1rem;
     color: var(--color-primary);
 }
 
