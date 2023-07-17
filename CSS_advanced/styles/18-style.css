@@ -419,12 +419,12 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-nav .nav-link {
+.nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: calc(0.5 * var(--root-element-size)) var(--root-element-size);
 }
 
-nav .nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
   
@@ -474,10 +474,6 @@ nav .nav-link:hover {
     margin-right: auto;
     margin-left: auto;
 }
-
-.footer {
-    padding: var(--footer-padding);
-}
   
 :root {
     --color-primary: #d73953;
@@ -513,6 +509,10 @@ nav .nav-link:hover {
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    --nav-item-margin: 0 0 3rem;
+    --nav-item-margin: 0 0 calc(3 * var(--root-element-size)) 0;
     --nav-item-link-hover: var(--color-primary);
 }
+
+.footer {
+    padding: var(--footer-padding);
+  }
