@@ -403,7 +403,7 @@ a:active {
     float: right;
 }
 
-.nav{
+.nav {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -419,12 +419,12 @@ a:active {
     margin: var(--nav-item-margin);
 }
 
-.nav-link {
+.nav .nav-link {
     display: block;
-    padding: var(--nav-item-font-size) 0;
+    padding: 0.5rem 1rem;
 }
 
-.nav-link:hover {
+.nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
   
